@@ -6,3 +6,15 @@ dofile(MODPATH .. "/liquids.lua")
 minetest.register_alias("mapgen_stone", "waffles:waffle_stack")
 
 minetest.register_alias("mapgen_water_source", MODNAME .. ":syrup_source")
+minetest.register_alias("mapgen_lava_source", MODNAME .. ":butter_source")
+
+-- Not sure what to do with this
+-- minetest.register_biome({
+--     name = "batter",
+--     y_min = 1,
+--     y_max = 1,
+--     heat_point = 50,
+--     humidity_point = 38,
+--     node_top = MODNAME .. ":batter",
+--     depth_top = 2,
+-- })
