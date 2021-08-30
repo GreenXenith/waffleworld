@@ -18,3 +18,19 @@ minetest.register_alias("mapgen_lava_source", MODNAME .. ":butter_source")
 --     node_top = MODNAME .. ":batter",
 --     depth_top = 2,
 -- })
+
+minetest.register_node(MODNAME .. ":icecream", {
+    description = "Ice Cream",
+    tiles = {"waffleworld_mapgen_icecream.png"},
+    groups = {snappy = 2},
+})
+
+minetest.register_biome({
+    name = "snow",
+    node_top = "waffleworld_mapgen:icecream",
+    depth_top = 1,
+    y_max = 31000,
+    y_min = 40,
+    -- heat_point = 20,
+    -- humidity_point = 35,
+})
