@@ -1,0 +1,3 @@
+[submodule "mods/waffles"]
+	path = mods/waffles
+	url = git@github.com:GreenXenith/waffles.git
